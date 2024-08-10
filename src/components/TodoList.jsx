@@ -15,7 +15,7 @@ export default function TodoList({ todoList, setTodoList }) {
 
   //**delete item */
   function handleDelete(itemClicked) {
-    console.log("handleDelete log: ", itemClicked);
+    console.log("handleDelete log test: ", itemClicked);
     setTodoList(todoList.filter((item) => item !== itemClicked));
   }
 
