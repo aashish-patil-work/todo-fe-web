@@ -1,0 +1,33 @@
+.todolistitem {
+  width: 500px;
+  font-size: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemText {
+  color: gray;
+  padding: 20px;
+  flex-grow: 9.8;
+}
+
+.line {
+  border: 1px solid lightgray;
+}
+
+.deleteButtonContainer {
+  align-content: center;
+  text-align: center;
+  flex-grow: 0.2;
+}
+
+.deleteButton {
+  padding: 12px 20px;
+  background-color: yellow;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+}

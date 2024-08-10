@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: yellow;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  padding: 0.5em;
+  box-shadow: 0 4px 6px lightgray;
+  margin-bottom: 10px;
+
+  display: flex; /* Establishes a flex container */
+  justify-content: center; /* Center horizontally (optional) */
+  align-items: center; /* Center vertically */
+}
+
+.itemTextContainer {
+}
